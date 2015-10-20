@@ -1,0 +1,35 @@
+'puts' to  print a line
+'#' to commment
+'#{}' for string interpolation
+'>' (gt), '<' (lt), '<=' (ltoe),'>=' (gtoe)
+'=' for variable assignment
+'.to_i' parses string to integer
+'.to_f' parses string to float
+"'a' + 'b'" use '+' for string concatenation
+'* 10' to repeat 10.times
+'print' does not append '\n' or newline
+
+formatter = "1.%{first} 2.%{second}"
+puts formatter % {first: "is first", second: "is second"}
+use %{hash} for custom string formatting
+
+'\n' to print newline
+'"""' triple double quotes to escape all special characters and type freely
+'\t' to print tab
+'\\' to escape and print '\'
+'gets' requests user input
+'chomp' removes '\n' at the end of line
+'ARGV' requests insertion to script
+'$stdin.gets' while working along with 'ARGV'
+'open(filename)' to open a file, default is 'read'
+'.read' to puts the file contents
+'.close' to close the file
+'.open(filename, "w")' to open a file for 'write'
+'.truncate(0)' to clear the file contents
+';' indicates end of code line. use to put 2 lines of code in 1
+'File.exist?(file)' to check existance of file
+'.write(content)' to write content into file
+'def .. end' to declare a method
+'*args' to accept a list/array of arguments
+'File.seek(0)' to return file pointer to line 0
+'File.gets' to retrieve current line in file
